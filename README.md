@@ -1,6 +1,6 @@
 # weather_station
-Create a weather station with raspberry_pi, python and django framework, with graphical output and json
-This project, with a python program takes temperature and humidity from a DHT11 sensor (it is possible to use DHT22 for more accurate results) and saves the data at 15-minute intervals to a Sqlite database, later with the django framework this data is taken from the database and printed in jason format (without serializer) and in chart.js.
+Create a weather station with raspberry_pi, python and django framework, with graphical output and json.
+This project, takes temperature and humidity from a DHT11 sensor with a python program (it is possible to use DHT22 for more accurate results)and saves the data at 15-minute intervals to a Sqlite database, with the django framework this data is taken from the database and printed in jason format (without serializer) and in chart.js.
  
 # instructions:
 - download the project to the raspberry (e.g., /home/pi/weather/)
